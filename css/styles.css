@@ -23,3 +23,15 @@ body {
   padding-top: 40px; /* Adjust this number to match the height of your banner */
 }
 /*END OF REQUIRED CSS FOR STUDENT BANNER*/
+
+/* Color Palette from Coolors.co
+  Ink Black #001524
+  Stormy Teal #15616D
+  Papaya Whip # FFECD1
+  Vivid Tangerine #FF7D00
+  Brandy #78290F */
+
+  .navbar, .leaf {
+    background-color: #15616D;
+    color: #78290F;
+  }
