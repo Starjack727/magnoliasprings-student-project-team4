@@ -124,3 +124,8 @@ body {
   text-transform: uppercase;
   -webkit-text-stroke: 3px #78290F60;
 }
+
+.faq1 {
+  background-color: #78290F;
+  color: #FFECD1;
+}
