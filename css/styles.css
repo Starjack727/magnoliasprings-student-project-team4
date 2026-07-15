@@ -97,6 +97,10 @@ body {
   background-color: #FF7D0080;
 }
 
+.text5 {
+  color: #001524;
+}
+
 .slogan {
   color:#FFECD1;
   font-size: 3.5em;
@@ -126,12 +130,17 @@ body {
   color: #FFECD1;
 }
 
-.accordion-collapse {
-  background-color: #78290F9A;
-  color:#15616D;
+.generalQ1 {
+  background-color: #78290FCC;
+  color: #FFECD1;
+}
+
+.generalQ2 {
+  background-color: #FF7D00CC;
+  color:#001524;
 }
 
 .faq2 {
-  background-color: #FF7D009A;
+  background-color: #FF7D00;
   color: #001524;
 }
