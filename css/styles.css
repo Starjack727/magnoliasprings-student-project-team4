@@ -116,10 +116,6 @@ body {
   background-image: linear-gradient(to right, #78290F80, #FF7D00);
 }
 
-.flower {
-  background-color: transparent;
-}
-
 .titletext {
   text-transform: uppercase;
   -webkit-text-stroke: 3px #78290F60;
