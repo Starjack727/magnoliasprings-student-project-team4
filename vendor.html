@@ -96,27 +96,81 @@
     <hr>
 
     <div class="container mt-3 border">
-        <h1 class="bg-dark text-light text-center py-2">Vendor Application</h1>
+        <h1 class="bg-dark text-light text-center py-2"><i class="bi bi-leaf h1 text-warning mx-1"></i>Vendor Registration Form</h1>
         <form action="/action_page.php">
             <div class="container border p-5 text-center">
-                <p class="h2"><i>Please complete all section of this form. Applications must be submitted by August
+                <p class="h3"><i>Please complete all sections of this form. Applications must be submitted by August
                     31st. You will be notified of your application status via email by September 15th.</i>
                 </p>
             </div>
-            <div class="mb-3 mt-3">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <div class="container text-sm-start bg-dark text-light p-2">
+                <h2>1. Business & Contact Information</h2>
             </div>
-            <div class="mb-3">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            <div class="mb-3 mt-3 p-10">
+                <label for="contact">Contact Name:</label>
+                <input type="text" class="form-control" id="contact" placeholder="Enter person to contact" name="contact">
             </div>
-            <div class="form-check mb-3">
-                <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                </label>
+            <div class="mb-3 p-10">
+                <label for="business">Business Name:</label>
+                <input type="text" class="form-control" id="business" placeholder="Enter business name" name="business">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="mb-3 mt-3 p-10">
+                <label for="address1">Mailing Address:</label>
+                <input type="text" class="form-control" id="address1" placeholder="Enter mailing address" name="address1">
+            </div>
+            <div class="mb-3 p-10">
+                <label for="address2">City, State, Zip:</label>
+                <input type="text" class="form-control" id="address2" placeholder="Enter city, state, zipcode" name="address2">
+            </div>
+            <div class="mb-3 p-10">
+                <label for="phone">Phone Number:</label>
+                <input type="phone" class="form-control" id="phone" placeholder="Enter phone number" name="phone">
+            </div>
+            <div class="mb-3 mt-3 p-10">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+            <div class="mb-3 p-10">
+                <label for="website">Website or Social Media Handle:</label>
+                <input type="text" class="form-control" id="website" placeholder="Enter website or social media handle" name="website">
+            </div>
+            <div class="container text-sm-start bg-dark text-light p-2 my-4">
+                <h2>2. Vendor Category</h2>
+            </div>
+            <div class="container lead p-2"><i>Please select the category that best describes your setup (choose one):</i><br>
+                <div class="container">
+                    <div class="form-check p-2 mx-5">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                        <label class="form-check-label" for="radio1"><b>Arts & Crafts: </b>100% handmade items,
+                        fine art, woodcrafts, jewelry, pottery, etc.</label>
+                    </div>
+                    <div class="form-check p-2 mx-5">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                        <label class="form-check-label" for="radio2"><b>Packaged Specialty Foods: </b> Jams, honey, baked goods, sauces
+                        (not consumed on site).</label>
+                    </div>
+                    <div class="form-check p-2 mx-5">
+                        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">
+                        <label class="form-check-label" for="radio3"><b>Food Truck/Hot Food Vendor: </b> Prepared and 
+                        served on-site for immediate consumption.</label>
+                    </div>
+                    <div class="form-check p-2 mx-5">
+                        <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">
+                        <label class="form-check-label" for="radio4"><b>Non-Profit/Community Organization: </b> Information only,
+                        no retail sales.</label>
+                    </div>                    
+                </div>
+            </div>
+            <div class="container text-sm-start bg-dark text-light p-2 my-4">
+                <h2>3. Product Description & Photos</h2>
+            </div>
+            <div class="mb-3 mt-3 p-10">
+                <label for="items"><b>Detailed Description: </b>Please list all items you intend to sell. (Only items listed here
+                and approved may be sold at your booth).</label>
+                <textarea class="form-control" rows="4" id="items" placeholder="Enter items" name="items"></textarea>
+            </div>                        
+            <hr>
+            <button type="submit" class="btn btn-dark">Submit</button>
         </form>
     </div>
 
